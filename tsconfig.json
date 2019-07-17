@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "scf-lib": [
+        "dist/scf-lib"
+      ],
+      "scf-lib/*": [
+        "dist/scf-lib/*"
+      ]
+    }
   }
 }
